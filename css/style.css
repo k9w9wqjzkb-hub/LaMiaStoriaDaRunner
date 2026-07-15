@@ -1,7 +1,12 @@
-/* ==================================================
-   LA MIA STORIA DA RUNNER
-   Release 0.1
-================================================== */
+/*==================================================
+
+    LA MIA STORIA DA RUNNER
+    STYLE.CSS
+
+    Release : 0.2
+    Autore  : Sergio Comi
+
+==================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
@@ -34,19 +39,27 @@ body{
 
 }
 
+/*=====================================
+  HEADER
+=====================================*/
+
 header{
 
-    padding:24px 20px 10px;
+    padding:18px 20px 6px;
+    text-align:center;
 
 }
 
 header h1{
 
-    font-size:1.5rem;
-
+    font-size:1.15rem;
     font-weight:700;
 
 }
+
+/*=====================================
+  LAYOUT
+=====================================*/
 
 main{
 
@@ -54,7 +67,7 @@ main{
 
     margin:auto;
 
-    padding:16px;
+    padding:12px;
 
 }
 
@@ -118,17 +131,21 @@ section{
 
 }
 
+/*=====================================
+  CARD
+=====================================*/
+
 .card{
 
     background:#1E293B;
 
     border-radius:22px;
 
-    padding:20px;
+    padding:16px;
 
-    margin-bottom:20px;
+    margin-bottom:14px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.35);
+    box-shadow:0 8px 22px rgba(0,0,0,.35);
 
 }
 
@@ -162,9 +179,9 @@ section{
 
 .card h2{
 
-    margin-top:6px;
+    margin-top:4px;
 
-    font-size:1.35rem;
+    font-size:1.18rem;
 
 }
 
@@ -178,7 +195,7 @@ section{
 
 .progress{
 
-    height:8px;
+    height:6px;
 
     background:#0F172A;
 
@@ -186,7 +203,7 @@ section{
 
     overflow:hidden;
 
-    margin:22px 0;
+    margin:16px 0;
 
 }
 
@@ -242,9 +259,9 @@ section{
 
     background:#243247;
 
-    border-radius:18px;
+    border-radius:16px;
 
-    padding:18px;
+    padding:14px;
 
     text-align:center;
 
@@ -264,19 +281,19 @@ section{
 
 .stat-card i{
 
-    font-size:1.7rem;
+    font-size:1.45rem;
 
     color:#3B82F6;
 
-    margin-bottom:12px;
+    margin-bottom:8px;
 
 }
 
 .stat-card h3{
 
-    font-size:1.5rem;
+    font-size:1.2rem;
 
-    margin-bottom:6px;
+    margin-bottom:4px;
 
 }
 
@@ -284,7 +301,7 @@ section{
 
     color:#94A3B8;
 
-    font-size:.82rem;
+    font-size:.72rem;
 
 }
 
@@ -294,13 +311,13 @@ section{
 
 .workout-data{
 
-    margin:20px 0;
+    margin:14px 0;
 
     display:flex;
 
     flex-direction:column;
 
-    gap:14px;
+    gap:8px;
 
 }
 
@@ -312,7 +329,7 @@ section{
 
     align-items:center;
 
-    padding:10px 0;
+    padding:7px 0;
 
     border-bottom:1px solid rgba(255,255,255,.06);
 
