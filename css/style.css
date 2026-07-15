@@ -27,6 +27,10 @@
 
 }
 
+/*=====================================
+  BODY
+=====================================*/
+
 body{
 
     font-family:'Inter',sans-serif;
@@ -36,6 +40,11 @@ body{
     color:var(--text);
 
     min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    overflow:hidden;
 
 }
 
@@ -58,16 +67,26 @@ header h1{
 }
 
 /*=====================================
-  LAYOUT
+  MAIN LAYOUT
 =====================================*/
 
 main{
 
+    flex:1;
+
     max-width:430px;
+
+    width:100%;
 
     margin:auto;
 
     padding:12px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
 
 }
 
@@ -143,7 +162,7 @@ section{
 
     padding:16px;
 
-    margin-bottom:14px;
+    margin-bottom:0px;
 
     box-shadow:0 8px 22px rgba(0,0,0,.35);
 
@@ -249,9 +268,9 @@ section{
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2,1fr);
 
-    gap:16px;
+    gap:12px;
 
 }
 
